@@ -3,6 +3,9 @@ document.querySelector('#paperButton').addEventListener('click', paper)
 document.querySelector('#scissorsButton').addEventListener('click', scissors)
 document.querySelector('#resetScore').addEventListener('click', resetScore)
 
+document.querySelector("#playerScore").textContent = 0
+document.querySelector("#computerScore").textContent = 0
+
 const playerChoiceImg = document.querySelector('#playerChoice')
 let playerScore = 0
 let computerScore = 0
