@@ -26,8 +26,11 @@ function scissors(){
 }
 
 function resetScore(){
+  console.log('Reset score function called')
   playerScore = 0
   computerScore = 0
+  document.querySelector("#playerScore").textContent = 0
+  document.querySelector("#computerScore").textContent = 0
 }
 
 async function makeReq(userName){
