@@ -1,0 +1,49 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  /* border: 2px solid red; */
+}
+
+h1{
+  font-size: 4rem;
+  color: red;
+  margin-top: -8rem;
+}
+
+img{
+  width: 25%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* .buttonContainer{
+  border: 2px solid blue;
+} */
+
+.buttonContainer button{
+  height: 3rem;
+  width: 5rem;
+}
+
+.choiceContainer{
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.choiceContainer span{
+  font-size: 2rem;
+}
+
+.score {
+  border: 2px solid red;
+}
